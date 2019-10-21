@@ -20,6 +20,3 @@ class Room:
         output += "Description: " + self.description
         output += "Exits: " + str(self.exits)
         return output
-    
-    
-        
