@@ -12,3 +12,6 @@ class RoomNode(object):
         self.south = south
         self.east = east
         self.west = west
+
+    def __str__ (self):
+        return str(self.data)
