@@ -11,12 +11,12 @@ class Room:
         self.name = name
         self.description = description
         
-        self.exits = {} # empty dictionary
+        #self.exits = {} # empty dictionary
         
     def __str__ (self):
         """Create a human readable version"""
         output = "Name: " + self.name
         output += "\n"
         output += "Description: " + self.description
-        output += "Exits: " + str(self.exits)
+        #output += "Exits: " + str(self.exits)
         return output
